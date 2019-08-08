@@ -90,23 +90,23 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"samba_pos_integration.tasks.all"
-# 	],
-# 	"daily": [
-# 		"samba_pos_integration.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"samba_pos_integration.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"samba_pos_integration.tasks.weekly"
-# 	]
-# 	"monthly": [
-# 		"samba_pos_integration.tasks.monthly"
-# 	]
-# }
+scheduler_events = {
+	# "all": [
+	# 	"triangle_llc.tasks.all"
+	# ],
+	"daily": [
+        "samba_pos_integration.samba_pos_integration.samba_utilities.submit_samba_invoices"
+	]
+	# "hourly": [
+	# 	"triangle_llc.tasks.hourly"
+	# ],
+	# "weekly": [
+	# 	"triangle_llc.tasks.weekly"
+	# ]
+	# "monthly": [
+	# 	"triangle_llc.tasks.monthly"
+	# ]
+}
 
 # Testing
 # -------
