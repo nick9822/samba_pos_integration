@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include samba_pos_integration *.css
+recursive-include samba_pos_integration *.csv
+recursive-include samba_pos_integration *.html
+recursive-include samba_pos_integration *.ico
+recursive-include samba_pos_integration *.js
+recursive-include samba_pos_integration *.json
+recursive-include samba_pos_integration *.md
+recursive-include samba_pos_integration *.png
+recursive-include samba_pos_integration *.py
+recursive-include samba_pos_integration *.svg
+recursive-include samba_pos_integration *.txt
+recursive-exclude samba_pos_integration *.pyc
