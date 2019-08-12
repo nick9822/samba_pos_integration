@@ -94,7 +94,7 @@ scheduler_events = {
 	# "all": [
 	# 	"samba_pos_integration.tasks.all"
 	# ],
-	"daily": [
+	"hourly": [
         "samba_pos_integration.samba_pos_integration.samba_utilities.submit_samba_invoices"
 	]
 	# "hourly": [
